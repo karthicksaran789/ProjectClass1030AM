@@ -21,4 +21,17 @@ public class RunnerClass {
     public static void afterClass() {
         Reporting.generateJVMReport("target/output.json");
     }
+    
+    public static void main(String[] args) {
+		
+    	System.out.println("Java");
+    	System.out.println("Selenium");
+    	System.out.println("API");
+    	System.out.println("Appium");
+    	System.out.println("Manual");
+	}
 }
+
+
+
+
