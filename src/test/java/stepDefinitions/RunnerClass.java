@@ -21,4 +21,8 @@ public class RunnerClass {
     public static void afterClass() {
         Reporting.generateJVMReport("target/output.json");
     }
+    
+    public static void afterMethod() {
+    	System.out.println("12345");
+    }
 }
