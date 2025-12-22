@@ -29,6 +29,7 @@ public class RunnerClass {
     	System.out.println("API");
     	System.out.println("Appium");
     	System.out.println("Manual");
+    	System.out.println("Playwright");
 	}
 }
 

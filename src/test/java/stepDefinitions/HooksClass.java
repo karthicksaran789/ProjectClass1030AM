@@ -10,5 +10,9 @@ public class HooksClass {
 	private void afterExecution() {
 		System.out.println("Completed");
 	}
+	
+	private void afterExecutionCompleted() {
+		System.out.println("Completed");
+	}
 
 }
