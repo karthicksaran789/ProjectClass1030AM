@@ -31,6 +31,10 @@ public class RunnerClass {
     	System.out.println("Manual");
     	System.out.println("Playwright");
 	}
+
+    public static void afterMethod() {
+    	System.out.println("12345");
+    }
 }
 
 
